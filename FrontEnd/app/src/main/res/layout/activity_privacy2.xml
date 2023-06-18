@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.PrivacyActivity2"
+    android:background="@drawable/_75100929_5173728282658233_9124765695339980966_n">
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="137dp"
+        android:layout_height="41dp"
+        android:fontFamily="@font/pacifico"
+        android:text="Privacy Policy  "
+        android:textColor="#D8D3D3"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="400dp"
+        android:layout_height="151dp"
+        android:text="Through the https://physicall.fitness website and related mobile application(s), PhysicAll, Inc. (“PhysicAll”, “PhysicAll Fitness”, “we”, “us” or “our”) may provide you with access to workout and fitness resources (collectively, the “Services”) This Privacy Policy sets forth our policies with respect to information including personally identifiable data (“Personal Data”) and other information that is collected from you when using the Services. This Privacy Policy is incorporated by reference in the PhysicAll End User Terms of Use, which govern your use of the Services."
+        android:textColor="#E3DBDB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="405dp"
+        android:layout_height="92dp"
+        android:text="This Privacy Policy (“Statement”) applies to persons anywhere in the world who use our apps or Services to plan personalized workouts and all other services provided by PhysicAll (“Users”).  By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy."
+        android:textColor="#E3D9D9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView58"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="402dp"
+        android:layout_height="389dp"
+        android:text="COLLECTION OF INFORMATION  INFORMATION YOU PROVIDE TO US  We may collect Personal Data you voluntarily provide directly to us, such as when you enter personal information, workout information, your health, fitness and/or body data, contact customer support, or otherwise communicate with us, as set forth below.  If you provide Personal Data through the Services, you acknowledge and agree that such Personal Data may be transferred from your current location to our offices and servers or those of our contractors located in the United States and other countries. However, we will cease using your Personal Data once you cancel or terminate your registration for the Services.  INFORMATION WE COLLECT THROUGH YOUR USE OF OUR SERVICES  When you use our Services, we may collect information about you in the following general categories:  Usage and Preference Information: We collect information about how you and site visitors interact with our Services, preferences expressed, and settings chosen. In some cases, we do this through the use of cookies, pixel tags, and similar technologies that create and maintain unique identifiers.  Log Information: When you interact with the Services, we may collect server logs, which may include information like device IP address, access dates and times, app features or pages viewed, app crashes and other system activity, type of browser, and the third-party site or service you were using before interacting with our Services."
+        android:textColor="#CFC8C8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

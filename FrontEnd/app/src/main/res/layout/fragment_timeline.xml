@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimelineFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/time_line"
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+        <ImageView
+            android:id="@+id/imageView50"
+            android:layout_width="318dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="49dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/background3" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="8dp"
+            android:text="Indoor Run"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageView50"
+            app:layout_constraintTop_toTopOf="@+id/imageView50" />
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="58dp"
+            android:layout_height="57dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView50"
+            app:layout_constraintEnd_toEndOf="@+id/imageView50"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="@+id/imageView50"
+            app:layout_constraintTop_toTopOf="@+id/imageView50"
+            app:layout_constraintVertical_bias="0.636"
+            app:srcCompat="@drawable/background5" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="24 min"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView50"
+            app:layout_constraintEnd_toEndOf="@+id/imageView50"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="@+id/imageView50"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            app:layout_constraintVertical_bias="0.071" />
+
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="28dp"
+            android:layout_height="27dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView51"
+            app:layout_constraintEnd_toEndOf="@+id/imageView51"
+            app:layout_constraintStart_toStartOf="@+id/imageView51"
+            app:layout_constraintTop_toTopOf="@+id/imageView51"
+            app:srcCompat="@drawable/ic_baseline_snowshoeing_24" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.56 km"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView50"
+            app:layout_constraintEnd_toEndOf="@+id/imageView50"
+            app:layout_constraintHorizontal_bias="0.888"
+            app:layout_constraintStart_toStartOf="@+id/imageView50"
+            app:layout_constraintTop_toTopOf="@+id/imageView50"
+            app:layout_constraintVertical_bias="0.163" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="348 kcal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView50"
+            app:layout_constraintEnd_toEndOf="@+id/imageView50"
+            app:layout_constraintHorizontal_bias="0.886"
+            app:layout_constraintStart_toStartOf="@+id/imageView50"
+            app:layout_constraintTop_toTopOf="@+id/imageView50"
+            app:layout_constraintVertical_bias="0.734" />
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="318dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="49dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView50"
+            app:srcCompat="@drawable/background3" />
+
+        <ImageView
+            android:id="@+id/imageView55"
+            android:layout_width="58dp"
+            android:layout_height="57dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView54"
+            app:layout_constraintEnd_toEndOf="@+id/imageView54"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="@+id/imageView54"
+            app:layout_constraintTop_toTopOf="@+id/imageView54"
+            app:layout_constraintVertical_bias="0.636"
+            app:srcCompat="@drawable/background4" />
+
+        <ImageView
+            android:id="@+id/imageView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView55"
+            app:layout_constraintEnd_toEndOf="@+id/imageView55"
+            app:layout_constraintStart_toStartOf="@+id/imageView55"
+            app:layout_constraintTop_toTopOf="@+id/imageView55"
+            app:srcCompat="@drawable/ic_baseline_skateboarding_24" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outdoor Cycle"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView54"
+            app:layout_constraintEnd_toEndOf="@+id/imageView54"
+            app:layout_constraintHorizontal_bias="0.405"
+            app:layout_constraintStart_toStartOf="@+id/imageView54"
+            app:layout_constraintTop_toTopOf="@+id/imageView54"
+            app:layout_constraintVertical_bias="0.306" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23 min"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView54"
+            app:layout_constraintEnd_toEndOf="@+id/imageView54"
+            app:layout_constraintHorizontal_bias="0.334"
+            app:layout_constraintStart_toStartOf="@+id/imageView54"
+            app:layout_constraintTop_toTopOf="@+id/imageView54"
+            app:layout_constraintVertical_bias="0.918" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.22 km"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView54"
+            app:layout_constraintEnd_toEndOf="@+id/imageView54"
+            app:layout_constraintHorizontal_bias="0.915"
+            app:layout_constraintStart_toStartOf="@+id/imageView54"
+            app:layout_constraintTop_toTopOf="@+id/imageView54"
+            app:layout_constraintVertical_bias="0.306" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="248 kcal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView54"
+            app:layout_constraintEnd_toEndOf="@+id/imageView54"
+            app:layout_constraintHorizontal_bias="0.915"
+            app:layout_constraintStart_toStartOf="@+id/imageView54"
+            app:layout_constraintTop_toTopOf="@+id/imageView54"
+            app:layout_constraintVertical_bias="0.918" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

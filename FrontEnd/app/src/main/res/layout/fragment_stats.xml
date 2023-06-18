@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".statsFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/stat"
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+
+        <TextView
+            android:id="@+id/stat1"
+            android:layout_width="67dp"
+            android:layout_height="31dp"
+            android:text="Rewards"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.156" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="172dp"
+            android:layout_marginBottom="132dp"
+            android:text="you've earned 4/10 of all rewards"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/background2" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.382"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView19"
+            app:layout_constraintVertical_bias="0.07"
+            app:srcCompat="@drawable/background3" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.554"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.586"
+            app:srcCompat="@drawable/background4" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView37"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.574"
+            app:srcCompat="@drawable/background1" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+            app:layout_constraintEnd_toEndOf="@+id/imageView21"
+            app:layout_constraintStart_toStartOf="@+id/imageView21"
+            app:layout_constraintTop_toTopOf="@+id/imageView21"
+            app:layout_constraintVertical_bias="0.458"
+            app:srcCompat="@drawable/ic_baseline_grade_24" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView35"
+            app:layout_constraintEnd_toEndOf="@+id/imageView35"
+            app:layout_constraintStart_toStartOf="@+id/imageView35"
+            app:layout_constraintTop_toTopOf="@+id/imageView35"
+            app:srcCompat="@drawable/ic_baseline_verified_24" />
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView37"
+            app:layout_constraintEnd_toEndOf="@+id/imageView37"
+            app:layout_constraintStart_toStartOf="@+id/imageView37"
+            app:layout_constraintTop_toTopOf="@+id/imageView37"
+            app:srcCompat="@drawable/ic_baseline_verified_user_24" />
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView38"
+            app:layout_constraintEnd_toEndOf="@+id/imageView38"
+            app:layout_constraintStart_toStartOf="@+id/imageView38"
+            app:layout_constraintTop_toTopOf="@+id/imageView38"
+            app:srcCompat="@drawable/ic_baseline_shield_24" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="86dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="16dp"
+            android:text="7-Workout Week"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="57dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Move Goal 200%"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView20"
+            app:layout_constraintTop_toBottomOf="@+id/imageView35" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="59dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:text="New Move Record"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView21"
+            app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="59dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="16dp"
+            android:text="Longest Move Strea"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView22"
+            app:layout_constraintTop_toBottomOf="@+id/imageView38" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

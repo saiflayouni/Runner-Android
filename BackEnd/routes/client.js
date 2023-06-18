@@ -1,0 +1,10 @@
+const express  =require('express')
+const router   =express.Router()
+const ClientController = require('../controllers/ClientController')
+const upload = require('../middleware/upload')
+router.get('/',ClientController.index)
+router.post('/show',ClientController.show)
+router.post('/store', upload.single('avatar'), ClientController.store)
+router.put('/update',ClientController.update)
+router.delete('/delete',ClientController.destroy)
+module.exports = router

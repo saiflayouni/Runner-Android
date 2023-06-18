@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DuelsFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/duels"
+        android:layout_width="match_parent"
+        android:layout_height="274dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="72dp"
+            android:layout_height="65dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView48"
+            app:layout_constraintEnd_toEndOf="@+id/imageView48"
+            app:layout_constraintHorizontal_bias="0.931"
+            app:layout_constraintStart_toStartOf="@+id/imageView48"
+            app:layout_constraintTop_toTopOf="@+id/imageView48"
+            app:layout_constraintVertical_bias="0.458"
+            app:srcCompat="@drawable/ellipse_14" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saif  "
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView47"
+            app:layout_constraintEnd_toEndOf="@+id/imageView48"
+            app:layout_constraintHorizontal_bias="0.658"
+            app:layout_constraintStart_toStartOf="@+id/imageView48"
+            app:layout_constraintTop_toTopOf="@+id/imageView48"
+            app:layout_constraintVertical_bias="0.252" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginEnd="61dp"
+            android:text="Alex"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView48"
+            app:layout_constraintEnd_toStartOf="@+id/textView40"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView48"
+            app:layout_constraintVertical_bias="0.234" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="25dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="185dp"
+            android:layout_marginEnd="87dp"
+            android:text="VS"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView48"
+            app:layout_constraintEnd_toStartOf="@+id/imageView9"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView48"
+            app:layout_constraintVertical_bias="0.593" />
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="366dp"
+            android:layout_height="113dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.355"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.504"
+            app:srcCompat="@drawable/background3" />
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="76dp"
+            android:layout_height="82dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView48"
+            app:layout_constraintEnd_toEndOf="@+id/imageView48"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="@+id/imageView48"
+            app:layout_constraintTop_toTopOf="@+id/imageView48"
+            app:layout_constraintVertical_bias="0.483"
+            app:srcCompat="@drawable/ellipse" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 workouts"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView48"
+            app:layout_constraintEnd_toEndOf="@+id/imageView48"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="@+id/imageView48"
+            app:layout_constraintTop_toTopOf="@+id/imageView48"
+            app:layout_constraintVertical_bias="0.925" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
